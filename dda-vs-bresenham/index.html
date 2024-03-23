@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BRESENHAM vs DDA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <container>
+      <h1>
+        BRESENHAM
+        <br />
+        <span id="vs">vs</span>
+        <br />
+        DDA
+      </h1>
+      <div id="canvas-container">
+        <div id="bresenham-container">
+          <h2>Bresenham</h2>
+          <canvas id="bresenham-canvas">
+            Infelizmente o seu browser não dá suporte ao elemento Canvas do
+            HTML5
+          </canvas>
+        </div>
+        <div id="dda-container">
+          <h2>Digital Differential Analyser</h2>
+          <canvas id="dda-canvas">
+            Infelizmente o seu browser não dá suporte ao elemento Canvas do
+            HTML5
+          </canvas>
+        </div>
+      </div>
+    </container>
+
+    <footer>Made by Bruno Ricardo Corrêa and Vinícius Iutaka Nogueira Fujioka</footer>
+
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="bresenham.js"></script>
+    <script type="text/javascript" src="dda.js"></script>
+  </body>
+</html>
